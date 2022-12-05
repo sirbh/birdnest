@@ -22,8 +22,10 @@ export default function Container() {
   const [intruder, setIntruder] = useState<number>(0);
 
   useEffect(() => {
+    console.log('i ran')
     socket.on("connect", () => {
       setIsConnected(true);
+      console.log('me to')
     });
 
     socket.on("droneData", (data) => {
@@ -67,7 +69,7 @@ export default function Container() {
         ) : (
           Object.keys(pilotList!).map((e) => {
             return (
-              <Grid item xs={3} key={e}>
+              <Grid item xs={12} md={4} lg={3} key={e}>
                 <Card
                   distance={pilotList![e].distance}
                   email={pilotList![e].email}
