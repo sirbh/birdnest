@@ -1,7 +1,16 @@
-import Nav from "../nav"
+import Nav from "../nav";
 
-function Layout(){
-    return <Nav></Nav>
+type Props = {
+  children?: JSX.Element;
+};
+
+function Layout({ children }: Props) {
+  return (
+    <>
+      <Nav></Nav>
+      {children}
+    </>
+  );
 }
 
-export default Layout
+export default Layout;
