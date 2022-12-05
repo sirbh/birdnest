@@ -4,7 +4,7 @@ import Card from "../card";
 import { CircularProgress, Grid, Typography } from "@mui/material";
 import openSocket from "socket.io-client";
 
-const socket = openSocket("http://localhost:8080/");
+const socket = openSocket("https://birdnest-backendv1.onrender.com");
 
 interface IPilotDroneState {
   [k: string]: {
@@ -67,7 +67,7 @@ export default function Container() {
         ) : (
           Object.keys(pilotList!).map((e) => {
             return (
-              <Grid item xs={4} key={e}>
+              <Grid item xs={3} key={e}>
                 <Card
                   distance={pilotList![e].distance}
                   email={pilotList![e].email}
