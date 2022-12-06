@@ -1,4 +1,4 @@
-# FrontEnd for Assignment fall 2022: Developers
+# FrontEnd for PROJECT BIRDNEST
 
 This project is live on https://wonderful-chimera-81c637.netlify.app/
 
