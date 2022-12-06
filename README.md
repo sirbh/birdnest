@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Builds the app for production to the `build` folder.\
 
-###   `tech stack`
+##   Tech Stack
 
 React with MaterialUI
 
