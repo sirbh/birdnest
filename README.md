@@ -1,4 +1,4 @@
-# Front End for Assignment fall 2022: Developers
+# FrontEnd for Assignment fall 2022: Developers
 
 This project is live on https://wonderful-chimera-81c637.netlify.app/
 
